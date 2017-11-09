@@ -25,4 +25,8 @@
 
     <!-- Device specific gesture package -->
     <string name="config_customGesturePackage">org.lineageos.settings.device/org.lineageos.settings.device.ActionsPreferenceActivity</string>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">org.lineageos.settings.device/org.lineageos.settings.device.DozeSettingsActivity</string>
+
 </resources>
