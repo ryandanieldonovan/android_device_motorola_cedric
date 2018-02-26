@@ -26,6 +26,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
 AOS_BUILD_TYPE := PLASMA
+WITH_MUSICFX := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
