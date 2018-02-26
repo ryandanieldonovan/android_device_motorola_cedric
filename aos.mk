@@ -25,6 +25,8 @@ $(call inherit-product, vendor/aos/config/common.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
+AOS_BUILD_TYPE := PLASMA
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
 PRODUCT_NAME := aos_cedric
