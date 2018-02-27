@@ -223,10 +223,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
     lights.msm8937
 
-# Display Calibration
-PRODUCT_PACKAGES += \
-    libjni_livedisplay
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
@@ -367,10 +363,6 @@ PRODUCT_PACKAGES += \
     wifilogd \
     wpa_supplicant \
     wpa_supplicant.conf
-
-# Launcher3
-PRODUCT_PACKAGES += \
-    Launcher3
 
 #Thermal
 PRODUCT_PACKAGES += android.hardware.thermal@1.0-impl \
