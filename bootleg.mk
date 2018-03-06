@@ -34,3 +34,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys \
     PRIVATE_BUILD_DESC="cedric-7.0/NPPS25.137-72-4/4:user/release-keys" \
     PRODUCT_NAME="Moto G5"
+    DEVICE_MAINTAINERS="Fedray"
