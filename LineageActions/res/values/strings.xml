@@ -37,10 +37,10 @@
     <string name="fingerprint_double_tap_dlg_title">Select action for double tap</string>
     <string name="fingerprint_long_tap_title">Long tap</string>
     <string name="fingerprint_long_tap_dlg_title">Select action for long tap</string>
-    <string name="fingerprint_swipe_left_title">Swipe left</string>
-    <string name="fingerprint_swipe_left_dlg_title">Select action for swipe left</string>
-    <string name="fingerprint_swipe_right_title">Swipe right</string>
-    <string name="fingerprint_swipe_right_dlg_title">Select action for swipe right</string>
+    <string name="fingerprint_swipe_left_title">Swipe right</string>
+    <string name="fingerprint_swipe_left_dlg_title">Select action for swipe right</string>
+    <string name="fingerprint_swipe_right_title">Swipe left</string>
+    <string name="fingerprint_swipe_right_dlg_title">Select action for swipe left</string>
 
     <!-- Screen on gestures haptic feedback -->
     <string name="haptic_feedback">Haptic feedback</string>
