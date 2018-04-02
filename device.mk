@@ -130,7 +130,8 @@ PRODUCT_PACKAGES += \
     memtrack.msm8937 \
     libgenlock \
     libtinyxml \
-    libdisplayconfig
+    libdisplayconfig \
+    libqdMetaData.system
 
 PRODUCT_PACKAGES += android.hardware.media.omx
 
