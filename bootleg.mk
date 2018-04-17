@@ -25,7 +25,7 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-BOOTLEG_BUILD_TYPE := Shishufied 
+BOOTLEG_BUILD_TYPE := Shishufied
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
