@@ -25,6 +25,8 @@ $(call inherit-product, vendor/aosp/common.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
+EXTENDED_BUILD_TYPE := OFFICIAL
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
 PRODUCT_NAME := aosp_cedric
