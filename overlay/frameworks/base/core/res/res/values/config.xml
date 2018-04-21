@@ -337,4 +337,7 @@
    <!-- Should the pinner service pin the Camera application? -->
    <bool name="config_pinnerCameraApp">true</bool>
 
+   <!-- Determines whether the device supports fingerprint navigation -->
+   <bool name="config_supportsFPNavigation">true</bool>
+
 </resources>
