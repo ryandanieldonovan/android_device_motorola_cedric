@@ -112,10 +112,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/mot_ov5695_chromatix.xml:system/etc/camera/mot_ov5695_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/mot_imx258_chromatix.xml:system/etc/camera/mot_imx258_chromatix.xml
 
-# LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
-
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8937 \
