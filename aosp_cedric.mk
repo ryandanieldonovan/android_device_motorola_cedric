@@ -32,3 +32,6 @@ PRODUCT_DEVICE := cedric
 PRODUCT_NAME := aosp_cedric
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
+
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
