@@ -18,16 +18,16 @@
 package org.lineageos.settings.device.utils;
 
 import android.content.Context;
-import lineageos.providers.LineageSettings;
+import android.provider.Settings;
 
 public class ProximityUtils {
     public static boolean isProximityWakeEnabled(Context context){
         boolean mProximityWakeSupported = context.getResources().getBoolean(
-                org.lineageos.platform.internal.R.bool.config_proximityCheckOnWake);
+                com.android.internal.R.bool.config_proximityCheckOnWake);
         boolean defaultProximity = context.getResources().getBoolean(
-                org.lineageos.platform.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);
-        boolean proximityWakeCheckEnabled = LineageSettings.System.getInt(context.getContentResolver(),
-               LineageSettings.System.PROXIMITY_ON_WAKE, defaultProximity ? 1 : 0) == 1;
+                com.android.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);
+        boolean proximityWakeCheckEnabled = Settings.System.getInt(context.getContentResolver(),
+               Settings.System.PROXIMITY_ON_WAKE, defaultProximity ? 1 : 0) == 1;
         return mProximityWakeSupported && proximityWakeCheckEnabled;
     }
 }
