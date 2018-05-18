@@ -37,14 +37,15 @@
     <string name="fingerprint_double_tap_dlg_title">Seleccionar acción para doble toque</string>
     <string name="fingerprint_long_tap_title">Toque largo</string>
     <string name="fingerprint_long_tap_dlg_title">Seleccionar acción para toque largo</string>
-    <string name="fingerprint_swipe_left_title">Deslizar derecha</string>
-    <string name="fingerprint_swipe_left_dlg_title">Seleccionar acción para deslizar derecha</string>
-    <string name="fingerprint_swipe_right_title">Deslizar izquierda</string>
-    <string name="fingerprint_swipe_right_dlg_title">Sellecionar acción para deslizar izquierda</string>
+    <string name="fingerprint_swipe_left_title">Deslizar izquierda</string>
+    <string name="fingerprint_swipe_left_dlg_title">Seleccionar acción para deslizar izquierda</string>
+    <string name="fingerprint_swipe_right_title">Deslizar derecha</string>
+    <string name="fingerprint_swipe_right_dlg_title">Sellecionar acción para deslizar derecha</string>
 
-    <!-- Screen on gestures haptic feedback -->
-    <string name="haptic_feedback">Respuesta vibratoria</string>
-    <string name="haptic_feedback_summary">Vibrar al realizar algún gesto</string>
+    <!-- Fingerprint gestures screen off -->
+    <string name="fingerprint_gestures_screenoff_title">Gestos de huella con pantalla apagada</string>
+    <string name="fingerprint_gestures_screenoff_summary">Usar gestos con pantalla apagada.\n\nDesbloqueo con huella debe estar desactivado para usar esta opción.</string>
+    <string name="fingerprint_actions_screenoff">Acciones con pantalla apagada</string>    
 
     <!-- Actions -->
     <string name="action_none">Nada</string>
@@ -68,6 +69,10 @@
     <string name="action_email">Abrir correo electrónico</string>
     <string name="action_messages">Abrir mensajes de teléfono</string>
 
+	<!-- Screen on gestures haptic feedback -->
+    <string name="haptic_feedback">Respuesta vibratoria</string>
+    <string name="haptic_feedback_summary">Vibrar al realizar algún gesto</string>
+	
    <!-- Proximity sensor -->
    <string name="allow_proximity_sensor_title">Permitir sensor de proximidad</string>
    <string name="allow_proximity_sensor_summary">Verificar sensor de proximidad antes de realizar una acción</string>
